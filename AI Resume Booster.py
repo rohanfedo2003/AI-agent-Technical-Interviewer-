@@ -1,9 +1,9 @@
 import pdfplumber
 from openai import AzureOpenAI
 client = AzureOpenAI(
-    api_key="TYuzFHHVhPINPX5s6V7qMZ4xY7rEfEKgMryyj7TNh7t1w9fKdy1bJQQJ99BAACHYHv6XJ3w3AAABACOGkzZu",
-    api_version="2024-05-01-preview",
-    azure_endpoint="https://synapt-development-instance.openai.azure.com/"
+    api_key="",
+    api_version="",
+    azure_endpoint=""
 )
 
 
