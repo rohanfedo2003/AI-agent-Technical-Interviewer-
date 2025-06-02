@@ -7,7 +7,7 @@ load_dotenv(r"C:\Users\rohan.rf\PycharmProjects\PythonProject\key.env")
 
 client = AzureOpenAI(
     api_key=os.getenv("api_key"),
-    api_version="2024-05-01-preview",
+    api_version="",
     azure_endpoint=os.getenv("azure_endpoint")
 )
 
