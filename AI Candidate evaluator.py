@@ -9,9 +9,10 @@ client = AzureOpenAI(
     api_version="2024-05-01-preview",
     azure_endpoint=os.getenv("azure_endpoint")
 )
-with open(r'C:\Users\rohan.rf\PycharmProjects\PythonProject\qns.txt', 'r') as file:
+# (file) you have change according to your file location
+with open(r'C:\Users\rohan.rf\PycharmProjects\PythonProject\qns.txt', 'r') as file: 
     questions = file.read()
-
+# (file) you have change according to your file location
 with open(r'C:\Users\rohan.rf\PycharmProjects\PythonProject\jd.txt', 'r') as file:
     job_description = file.read()
 
